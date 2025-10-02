@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Niconne&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wdth,wght@0,112.5,200;1,112.5,200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dae4e3;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  min-width: 97.5%;
+  min-height: 95.5vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  font-family: "Philosopher", serif;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+}
+
+.logo {
+  font-family: "Zalando Sans", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 3px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1c2631;
+  transition: color 0.8s ease, transform 0.8s ease;
+}
+
+.menu a:hover {
+  color: #c9a959;
+  transform: translateY(-2px);
+}
+
+.font-color {
+  color: #1c2631;
+}
+
+.login a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Zalando Sans", sans-serif;
+}
+
+.botao {
+  padding: 10px 20px;
+  background: linear-gradient(180deg, #dae4e3, #afd3cf);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.8s ease, transform 0.8s ease, color 0.8s ease;
+}
+
+.botao:hover {
+  background-color: #c9a959;
+  color: #1c2631;
+  transform: translateY(-2px);
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Zalando Sans", sans-serif;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
+
+.barra-de-pesquisa {
+  display: flex;
+  justify-content: center;
+  margin-top: -55px;
+  font-family: "Zalando Sans", sans-serif;
+  z-index: 20;
+  position: relative;
+}
+
+.caixa-de-pesquisa {
+  width: min(1100px, 52%);
+  background: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Zalando Sans", sans-serif;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95;
+}
+
+.offers {
+  margin-top: 40px;
+}
+
+.campo-digitar {
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.campo-digitar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.botao-de-pesquisa {
+  padding: 12px 20px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Zalando Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.botao-de-pesquisa:hover {
+  background-color: #c9a959;
+  color: #1c2631;
+}
+
+.sidebar h3 {
+  font-family: "Zalando Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.ofertas-section {
+  display: flex;
+  gap: 30px;
+  font-family: "Zalando Sans", sans-serif;
+  margin: 50px 60px;
+}
+
+.sidebar {
+  width: 220px;
+  height: 371px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar h3 {
+  font-family: "Zalando Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+  background: linear-gradient(90deg, #dae4e3, #afd3cf);
+  font-weight: bold;
+}
+
+.ofertas-grade {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  flex: 1;
+}
+
+.ofertas-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid #dae4e3;
+}
+
+.ofertas-card-reverse {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border: 2px solid #dae4e3;
+}
+
+.ofertas-card-reverse img {
+  width: 200px;
+  height: 190.1px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+.ofertas-card img {
+  width: 200px;
+  height: 190.3px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+.ofertas-info {
+  padding: 50px;
+  flex: auto;
+}
+
+.ofertas-info h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.ofertas-info p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.botao-compre-agora {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #3d3d3d;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Zalando Sans", sans-serif;
+  transition: 0.8s;
+}
+
+.botao-compre-agora:hover {
+  background: #c9a959;
+  color: #000000;
+}

@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Zalando Sans", sans-serif;
+  background: #dae4e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-caixa {
+  width: min(1100px, 96%);
+  max-width: 1200px;
+  height: 600px;
+  margin: 32px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(2, 7, 23, 0.08);
+}
+
+.forma-lado {
+  padding: 56px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forma-dentro {
+  width: 100%;
+  max-width: 420px;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.login-subtitulo {
+  margin: 0 0 24px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.digitar-campo {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.digitar-label {
+  display: block;
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.digitar-campo input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #e6e9ee;
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow 0.18s, border-color 0.18s;
+}
+
+.digitar-campo input:focus {
+  border-color: #c9a959;
+  box-shadow: 0 6px 18px rgba(201, 166, 89, 0.12);
+}
+
+.forma-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  gap: 12px;
+  font-size: 14px;
+  color: #475569;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.checkbox input {
+  width: 16px;
+  height: 16px;
+}
+
+.botao {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(180deg, #dae4e3, #afd3cf);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  transition: transform 0.8s ease, box-shadow 0.8s ease, opacity 0.8s;
+}
+.botao:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 26px rgba(92, 75, 230, 0.18);
+}
+
+.esqueci-senha {
+  color: #000000;
+  text-decoration: none;
+  font-size: 13px;
+}
+.signup {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #51606a;
+}
+.signup a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.imagem-tamanho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagem-tamanho img {
+  width: 100%;
+  display: block;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+}
