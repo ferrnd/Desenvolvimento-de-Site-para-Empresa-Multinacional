@@ -11,6 +11,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -172,10 +173,6 @@ body {
   opacity: 0.95;
 }
 
-.offers {
-  margin-top: 40px;
-}
-
 .campo-digitar {
   display: flex;
   flex-direction: column;
@@ -222,7 +219,7 @@ body {
 .sidebar {
   width: 220px;
   border: 2px solid #dae4e3;
-  height: 371px;
+  height: 415px;
   background: #fff;
   border-radius: 20px;
   padding: 20px;
@@ -240,6 +237,7 @@ body {
 }
 
 .sidebar ul li {
+  margin-top: 35px;
   padding: 10px;
   margin-bottom: 8px;
   border-radius: 12px;
