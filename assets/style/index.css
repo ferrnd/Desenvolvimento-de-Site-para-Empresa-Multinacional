@@ -52,15 +52,29 @@ body {
   letter-spacing: 3px;
 }
 
+.color a, p{
+  color: #000000;
+  transition: color 0.8s ease, transform 0.8s ease;
+}
+
+.color a, p:hover {
+  color: #c9a959;
+  transform: translateY(-2px);
+}
+
 .menu {
   display: flex;
   gap: 30px;
   font-family: "Quicksand", sans-serif;
 }
 
+.menu-selecionado {
+  color: #000000;
+}
+
 .menu a {
   text-decoration: none;
-  color: #1c2631;
+  color: #757575;
   transition: color 0.8s ease, transform 0.8s ease;
 }
 
@@ -141,7 +155,6 @@ body {
   justify-content: center;
   margin-top: -55px;
   font-family: "Zalando Sans", sans-serif;
-  z-index: 20;
   position: relative;
 }
 
@@ -153,7 +166,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-family: "Zalando Sans", sans-serif;
   display: flex;
-  gap: 18px;
+  gap: 25px;
   align-items: center;
   justify-content: center;
   opacity: 0.95;
