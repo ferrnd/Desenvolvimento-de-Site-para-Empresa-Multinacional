@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cadastro — travelly</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Cadastro — travelly</title>
+    <link rel="stylesheet" href="../assets/style/cadastrar.css" />
+  </head>
 
-  <link rel="stylesheet" href="../assets/style/cadastrar.css" />
-</head>
+  <body>
+    <main class="login-caixa">
+      <section class="forma-lado">
+        <div class="forma-dentro">
+          <div class="logo">Travelly</div>
 
-<body>
-  <main class="login-caixa">
-    <section class="forma-lado">
-      <div class="forma-dentro">
-        <div class="logo">Travelly</div>
+          <h1 id="login-titulo">Crie sua conta</h1>
+          <p class="login-subtitulo">Preencha os campos abaixo para começar</p>
 
-        <h1 id="login-titulo">Crie sua conta</h1>
-        <p class="login-subtitulo">Preencha os campos abaixo para começar</p>
+          <div>
+            <label class="digitar-campo">
+              <span class="digitar-label">Nome completo</span>
+              <input
+                type="text"
+                name="nome"
+                placeholder="Seu nome completo"
+                required
+              />
+            </label>
+          </div>
 
-        <div>
+          <div>
+            <label class="digitar-campo">
+              <span class="digitar-label">Email</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="seu@email.com"
+                required
+              />
+            </label>
+          </div>
+
           <label class="digitar-campo">
-            <span class="digitar-label">Nome completo</span>
-            <input type="text" name="nome" placeholder="Seu nome completo" required />
+            <span class="digitar-label">Senha</span>
+            <input
+              type="password"
+              name="senha"
+              placeholder="••••••••"
+              required
+            />
           </label>
-        </div>
 
-        <div>
           <label class="digitar-campo">
-            <span class="digitar-label">Email</span>
-            <input type="email" name="email" placeholder="seu@email.com" required />
+            <span class="digitar-label">Confirmar senha</span>
+            <input
+              type="password"
+              name="confirmarSenha"
+              placeholder="••••••••"
+              required
+            />
           </label>
+
+          <button class="botao">
+            <a href="../index.html">Cadastrar</a>
+          </button>
+
+          <p class="signup">
+            Já tem uma conta? <a href="login.html">Entrar</a>
+          </p>
         </div>
-
-        <label class="digitar-campo">
-          <span class="digitar-label">Senha</span>
-          <input type="password" name="senha" placeholder="••••••••" required />
-        </label>
-
-        <label class="digitar-campo">
-          <span class="digitar-label">Confirmar senha</span>
-          <input type="password" name="confirmarSenha" placeholder="••••••••" required />
-        </label>
-
-        <button class="botao">
-          <a href="../index.html">Cadastrar</a>
-        </button>
-
-        <p class="signup">Já tem uma conta? <a href="login.html">Entrar</a></p>
-      </div>
-    </section>
-  </main>
-</body>
-
+      </section>
+    </main>
+  </body>
 </html>

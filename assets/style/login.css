@@ -116,13 +116,12 @@ h1 {
   cursor: pointer;
   font-size: 15px;
   transition: transform 0.8s ease, box-shadow 0.8s ease, opacity 0.8s;
-  
 }
 
 .botao a {
-  text-decoration: none; 
-  color: inherit; 
-  display: block; 
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .botao:hover {
