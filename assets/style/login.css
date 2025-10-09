@@ -14,11 +14,12 @@ body {
 }
 
 .login-caixa {
-  width: min(1100px, 96%);
-  max-width: 1200px;
+  width: 500px;
   height: 600px;
-  margin: 32px auto;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 73px;
   grid-template-columns: 1fr 1fr;
   background: #ffffff;
   border-radius: 16px;
@@ -115,6 +116,7 @@ h1 {
   cursor: pointer;
   font-size: 15px;
   transition: transform 0.8s ease, box-shadow 0.8s ease, opacity 0.8s;
+  
 }
 .botao:hover {
   transform: translateY(-3px);
