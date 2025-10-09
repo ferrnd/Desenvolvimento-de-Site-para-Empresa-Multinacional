@@ -35,12 +35,17 @@ Este projeto foi desenvolvido como parte de uma **Situação de Aprendizagem** e
 
 ## 🚀 Funcionalidades
 
-- Página **Home** com informações principais da empresa.
-- Sistema de **Login e Cadastro** para usuários.
-- Páginas de **exploração de hotéis** com informações detalhadas.
-- Design responsivo e organizado conforme protótipo do Figma.
+O site inclui as seguintes funcionalidades:  
+
+- **Página Home** com informações principais da empresa.  
+- **Botão de pesquisa** para facilitar a navegação.  
+- Sistema de **Login e Cadastro** para usuários.  
+- **Escolha de hotéis por país e cidade**:  
+  - **França** – Paris  
+  - **Suíça** – Zurique  
+  - **Itália** – Veneza  
+  - **Brasil** – Rio de Janeiro  
+
+O design é responsivo e segue o protótipo definido no **Figma**.
 
 ---
-
-## 📂 Estrutura do Projeto
-
