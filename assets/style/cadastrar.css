@@ -85,26 +85,6 @@ h1 {
   box-shadow: 0 6px 18px rgba(201, 166, 89, 0.12);
 }
 
-.forma-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 18px;
-  gap: 12px;
-  font-size: 14px;
-  color: #475569;
-}
-.checkbox {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-}
-.checkbox input {
-  width: 16px;
-  height: 16px;
-}
-
 .botao {
   width: 100%;
   padding: 12px 14px;
