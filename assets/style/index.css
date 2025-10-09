@@ -322,6 +322,13 @@ body {
   font-family: "Zalando Sans", sans-serif;
   transition: 0.8s;
 }
+.botao-compre-agora a {
+  text-decoration: none;
+  color: #fff;
+}
+.botao-compre-agora a:visited {
+  color: #fff; 
+}
 
 .botao-compre-agora:hover {
   background: #c9a959;

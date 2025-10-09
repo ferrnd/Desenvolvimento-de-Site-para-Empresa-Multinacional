@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sheraton - Visão Geral</title>
+  <link rel="stylesheet" href="/assets/style/Sheraton Grand Rio Hotel & Resort.css" />
+</head>
+<body>
+  <div class="container" role="main">
+    <div class="logo">TRAVELLY</div>
+    <div class="volta"><a href="/pages/rio-de-janeiro.html">voltar</a></div>
+    <div class="title">Sheraton Grand Rio Hotel &amp; Resort</div>
+
+    <div class="highlight">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/512245639.jpg?k=67102ea8c8e8bcc9640c93a4f2b4ad0564111640cb9d352e8d4c4083e31abf27&o=&hp=1" alt="Sheraton Rio">
+    </div>
+
+    <div class="description">
+      Relaxe nas paisagens deslumbrantes do Sheraton Grand Rio Hotel & Resort. Abrace uma experiência de viagem única, onde o luxo se une à natureza exuberante.
+    </div>
+
+    <!-- TABS com barrinhas e hover -->
+    <nav class="tabs" aria-label="Seções do hotel">
+      <button class="tab-btn active" data-tab="visao" aria-pressed="true">Visão Geral</button>
+      <button class="tab-btn" data-tab="suites" aria-pressed="false">Suítes</button>
+      <button class="tab-btn" data-tab="comodidades" aria-pressed="false">Comodidades</button>
+    </nav>
+
+    <!-- conteúdo fictício trocado pelas abas (exemplo simples) -->
+    <section id="tab-content" style="padding:0 10px 18px 10px; border-radius:8px; margin-bottom:20px;">
+      <!-- inicialmente Visão Geral -->
+      <div data-content="visao">
+        <p style="color:#444">Aqui está a visão geral do hotel: localização privilegiada, piscinas, restaurante e serviços premium.</p>
+      </div>
+      <div data-content="suites" hidden>
+        <p style="color:#444">Suítes espaçosas com vista para o mar, camas king-size e decoração contemporânea.</p>
+      </div>
+      <div data-content="comodidades" hidden>
+        <p style="color:#444">Spa, academia 24h, traslados e serviço de quarto 24/7.</p>
+      </div>
+    </section>
+
+    <!-- Ofertas -->
+    <div class="offers">
+      <div class="offers-header">
+        <h2>Ofertas e Pacotes</h2>
+        <a href="#">Exibir todas as ofertas</a>
+      </div>
+
+      <div class="cards">
+        <div class="card" tabindex="0" role="button" aria-label="Pacote Carioquinha">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Pacote Carioquinha">
+          <span>Pacote Carioquinha</span>
+        </div>
+
+        <div class="card" tabindex="0" role="button" aria-label="Pacote Romântico">
+          <img src="https://media.istockphoto.com/id/1288119198/pt/foto/honeymoon-travel-silhouette-of-romantic-couple-on-sunset-beach.jpg?b=1&s=612x612&w=0&k=20&c=_JYnN6_wmDr4jSh5CKkG6UDiNPU6F9vF0AEh2mKv03g=">
+          <span>Pacote Romântico</span>
+        </div>
+
+        <div class="card" tabindex="0" role="button" aria-label="Réveillon 2026">
+          <img src="https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg" alt="Réveillon 2026">
+          <span>Réveillon 2026</span>
+        </div>
+
+        <div class="card" tabindex="0" role="button" aria-label="Ceia de Natal">
+          <img src="https://images.pexels.com/photos/31788847/pexels-photo-31788847.jpeg" alt="Ceia de Natal">
+          <span>Ceia de Natal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
