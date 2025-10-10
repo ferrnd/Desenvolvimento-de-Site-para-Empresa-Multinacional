@@ -106,7 +106,7 @@ body {
   margin-right: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 1000px;
+  width: 750px;
   height: 600px;
   border-radius: 20px;
 }
@@ -275,3 +275,4 @@ body {
   background: #555;
   transform: scale(1.05);
 }
+
